@@ -59,7 +59,7 @@ paginate = 10
 [[menu.topbar]]
     weight = 4
     name = "Email"
-    url = "mailto:your@email.com"
+    url = "mailto:florian.jansen@uni-rostock.de"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
@@ -127,7 +127,7 @@ paginate = 10
     # For more informtion take a look at the README.
 
 [params.features]
-    enable = false
+    enable = true
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more informtion take a look at the README.
