@@ -124,7 +124,11 @@ function sliders () {
       navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
       slideSpeed: 2000,
       paginationSpeed: 1000,
+<<<<<<< HEAD
       autoPlay: 8000,
+=======
+      autoPlay: true,
+>>>>>>> branch 'master' of git@github.com:open-herbarium/open-herbarium.github.io.git
       stopOnHover: true,
       singleItem: true,
       lazyLoad: false,
