@@ -1,4 +1,4 @@
-baseurl = "https://www.open-herbarium.test.infinitenature.org/"
+baseurl = "/"
 title = "Open Herbarium"
 theme = "hugo-universal-theme-master"
 languageCode = "en-us"
