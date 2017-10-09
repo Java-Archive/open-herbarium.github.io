@@ -138,7 +138,7 @@ paginate = 10
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
     title = "DEVELOPERS"
-    subtitle = "This is the hall of fame."
+    subtitle = ""
 
 [params.see_more]
     enable = false
