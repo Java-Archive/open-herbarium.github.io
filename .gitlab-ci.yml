@@ -1,0 +1,48 @@
+image: alpine
+
+variables:
+  HUGO_VERSION: '0.20.7'
+  HUGO_SHA: '04f2c7d2f6ea500b0ead4821f035f334b7ac370154509653391bfccec1c4d524'
+  GIT_SUBMODULE_STRATEGY: recursive
+
+before_script:
+  - apk update && apk add openssl ca-certificates rsync openssh-client
+  - wget -O ${HUGO_VERSION}.tar.gz https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+  - echo "${HUGO_SHA}  ${HUGO_VERSION}.tar.gz" | sha256sum -c
+  - tar xf ${HUGO_VERSION}.tar.gz && mv hugo* /usr/bin/hugo
+  - hugo version
+  - mkdir -p ~/.ssh
+  - echo "$SSH" | tr -d '\r' > ~/.ssh/id_rsa
+  - chmod 600 ~/.ssh/id_rsa
+  - ssh-keyscan -H 'loe2.loe.auf.uni-rostock.de' >> ~/.ssh/known_hosts
+  - ssh-keyscan -H 'loe3.loe.auf.uni-rostock.de' >> ~/.ssh/known_hosts
+
+test:
+  script:
+  - hugo
+  except:
+  - master
+  - develop
+
+build:
+  stage: build
+  script:
+  - hugo
+  only:
+  - develop
+  artifacts:
+     expire_in: 1 week
+     when: on_success
+     paths:
+     - public
+
+
+deploy_test:
+  stage: deploy
+  script:
+    - rsync -rv ./public/ deploy@loe3.loe.auf.uni-rostock.de:/var/www/html/www.open-herbarium.test.infinitenature.org/ --delete
+  environment:
+    name: stageing
+    url: https://www.open-herbarium.test.infinitenature.org
+  only:
+  - develop
