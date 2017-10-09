@@ -1,8 +1,0 @@
-weight: 4
-title: "Modern technology"
-description: >
- <ul class="list-style-none">
-    <li>Open Herbarium at the<br>cutting edge of software</li>
-    <li>Powered by Java and Vaadin</li>
-  </ul>
-image: "img/carousel/fotolia_132337720_java_vaadin.jpg"
