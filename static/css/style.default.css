@@ -106,6 +106,11 @@ div.section {
   vertical-align: middle;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+    background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, white , transparent); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, white , transparent); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, white , transparent); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, white , transparent); /* Standard syntax */
 }
 .heading h1 i.fa,
 .heading h2 i.fa,
@@ -1734,7 +1739,12 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 0;
 }
 #heading-breadcrumbs h1 {
-  color: #ffffff;
+  color: #333333;
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, white , transparent); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, white , transparent); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, white , transparent); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, white , transparent); /* Standard syntax */
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
