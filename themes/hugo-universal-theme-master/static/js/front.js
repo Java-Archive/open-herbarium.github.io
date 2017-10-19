@@ -101,7 +101,9 @@ function sliders () {
     })
 
     $('.testimonials').owlCarousel({
-      items: 5,
+      items: 3,
+	  autoPlay:true,
+	  stopOnHover: true,
       itemsDesktopSmall: [990, 3],
       itemsTablet: [768, 2],
       itemsMobile: [480, 1]
