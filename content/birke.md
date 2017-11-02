@@ -25,5 +25,9 @@ Oldenburg, Germany
 Oct. 1989 - March 2011<br>
 on cause of illness
 
+###### work stoppage
+April 2011 - May 2016<br>
+recovery from illness
+
 ###### disability
 2011 ongoing recognized
