@@ -12,7 +12,7 @@ DUENE e.V. (Greifswald University)<br>
 Greifswald, Germany
 
 ###### Software Developer
-Sep. 2007 - Dec. 2012<br>
+Sep. 2007 - Dec. 2008<br>
 Bundesamt für Seeschifffahrt und Hydrographie<br>
 Hamburg, Germany
 
