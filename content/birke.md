@@ -22,6 +22,8 @@ OFFIC - Institut für Informatik<br>
 Oldenburg, Germany
 
 ###### work stoppage
-Oct. 1989 - March 2011
+Oct. 1989 - March 2011<br>
 on cause of illness
-severe disability recognized
+
+###### disability
+2011 ongoing recognized
