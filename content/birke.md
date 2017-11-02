@@ -20,3 +20,8 @@ Hamburg, Germany
 Jan. 2007 - March 2007<br>
 OFFIC - Institut für Informatik<br>
 Oldenburg, Germany
+
+###### work stoppage
+Oct. 1989 - March 2011
+on cause of illness
+severe disability recognized

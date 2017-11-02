@@ -7,7 +7,7 @@ keywords = ["Marcus Lang"]
 #### Work Experience
 ###### Java Developer
 At REPLY MACROS<br>
-Nov. 2014 ongoing, 3 years<br>
+Nov. 2014 ongoing<br>
 Munich, Germany
 
 Java Development after the principles of Clean Code and TDD
@@ -21,11 +21,11 @@ Realization & Maintenance of a CI infrastructure
 
 ###### Ingenieur HW/SW
 At SIEMENS<br>
-Oct. 2011 - Sep. 2012, 1 year<br>
+Oct. 2011 - Sep. 2012<br>
 Munich, Germany
 
 Further development of a medical measurement and reporting system
 
 ###### Student Employee
 At SIEMENS<br>
-March 2010 - June 2011, 1 year 4 months
+March 2010 - June 2011
